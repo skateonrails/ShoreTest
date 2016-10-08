@@ -1,0 +1,2 @@
+The difference between the Java method and the Ruby method is that Ruby method can be used with any object that responds to "size" method (the "Duck Typing" that Ruby uses).
+The Java method only works with a String object as "s" parameter but, in Ruby, we can pass an Array object, for example.
