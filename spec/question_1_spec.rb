@@ -1,4 +1,5 @@
-require 'spec_helper.rb'
+require File.join(File.dirname(__FILE__), '..', 'question_1.rb')
+
 describe CharacterFrequency do
   context "given an array of charactes" do
     it "shows frequency of each character" do

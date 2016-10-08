@@ -1,4 +1,5 @@
-#question_1.rb
+# question_1.rb
+# one-line answer: input.group_by{|obj| obj}.inject({}){|memo, aray| memo[aray.first] = aray.last.count; memo}
 class CharacterFrequency
   class InvalidParameter < StandardError
   end
